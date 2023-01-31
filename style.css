@@ -1,0 +1,26 @@
+.wrapper
+  {
+    color: black;
+    background-color: white;
+    opacity: 0.7;
+    align-items: center;
+    border: 5px solid blue;
+    position: fixed;
+    bottom: 100px;
+    z-index: 1000;
+  }
+  #n1, #n2{
+      padding: 5px;
+      border-radius: 5px;
+    }
+  #result{
+    border: 2px solid blue;
+  }
+  #button{
+    border-radius: 5px;
+  }
+  button:hover{
+    background-color: Red;
+    color: white;
+  }
+  #map { height: 100vh; }
